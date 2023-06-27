@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Yuji+Hentaigana+Akebono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 120px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: start;
+}
+
+.logo-contain{
+ width: 80px;
+ height: 80px;
+ object-fit: contain;
+ margin-left: 20px;
+ margin-top: 10px;
+
+}
+
+.logo-contain img{
+ width: 100%;
+}
+
+#titulo{
+    margin: auto 0;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding-left:10px;
+}
+.sub-titulo{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-principal{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-productos{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+}
+
+.container-carrito{
+    width: 35%;
+    height: 100%;
+    border: 1px solid black;
+}
+.carrito{
+    height: 70%;
+    width: 100%;
+
+}
+
+.caja-total{
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    text-align: end;
+}
+.caja-total h5{
+    padding-top: 25px;
+}
+
+.tarjeta-cuerpo{
+    max-height: max-content;
+    width: 18rem;
+}
+.img-tarjeta{
+    max-height: 180px;
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+footer h6{
+    padding-top: 30px;
+}
